@@ -8,6 +8,7 @@ def dfs(start):
         if not dfsVisit[j]:
             dfs(j)
 
+
 def bfs(start):
     bfsVisit[start] = 1
     que = deque([start])
