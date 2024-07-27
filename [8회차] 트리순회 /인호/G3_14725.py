@@ -39,3 +39,6 @@ for i in range(len(tree)):
 for line in ptr:
     for food in line:
         print(food)
+
+
+
