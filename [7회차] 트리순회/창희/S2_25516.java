@@ -13,6 +13,7 @@ public class S2_25516 {
 
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
+        HashMap<Integer, ArrayList<Integer>()> map = new HashMap<>();
         int[] level = new int[100001];
         int[] apple = new int[100001];
         level[0] = 0;
@@ -20,8 +21,14 @@ public class S2_25516 {
             st = new StringTokenizer(br.readLine());
             int p = Integer.parseInt(st.nextToken());
             int v = Integer.parseInt(st.nextToken());
-            level[v] = level[p]+1;
+            map.computeIfAbsent(p, key -> new ArrayList<>()).add(v);
+//            level[v] = level[p]+1;
         }
+
+        for(int i=1; i<n;i++){
+            map.get(i).forEach(v -> level[i] = level[i]+1);
+        }
+
         apple = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         int result = 0;
         for(int i=n-1; i>=0;i--){
