@@ -69,7 +69,7 @@
 | Week 6-2 (2024.08.05) | 그리디 | `greedy` |✅ |✅ |✅ |✅
 | Week 7-1 (2024.08.08) | DP | `dp` |✅ |✅ |✅  |
 | Week 7-2 (2024.08.12) | DP | `dp` |✅ |✅ |✅  |
-| Week 8-1 (2024.08.15) | 비트 마스킹 | `bit masking` | |✅ |✅  |
+| Week 8-1 (2024.08.15) | 비트 마스킹 | `bit masking` |✅ |✅ |  |
 | Week 8-2 (2024.08.19) | 비트 마스킹 | `bit masking` | | | |
 | Week 9-1 (2024.08.22) | 누적합(세그먼트 트리) | `prefix sum` or `segment tree` | | | |
 | Week 9-2 (2024.08.26) | 누적합(세그먼트 트리) | `prefix sum` or `segment tree` | | | |
